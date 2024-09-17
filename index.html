@@ -15,40 +15,21 @@
   </head>
   <body>
     <div class="todo">
-      <div class="column">
+      <div class="column" id="list">
         <h2 class="header">Todo List Items</h2>
         <!-- todo list items -->
-        <div class="todo-list-items">
-          <div class="todo-list-item">
-            <span class="span">item</span>
-            <button class="">
-              <i class="fa-solid fa-trash-can"></i>
-            </button>
-          </div>
-          <div class="todo-list-item">
-            <span class="span">item</span>
-            <button class="btns">
-              <i class="fa-regular fa-trash-can"></i>
-            </button>
-          </div>
-          <div class="todo-list-item">
-            <span class="span">item</span>
-            <button class="btns">
-              <i class="fa-regular fa-trash-can"></i>
-            </button>
-          </div>
-        </div>
+        <div class="todo-list-items" id="todo-list-items"></div>
       </div>
       <div class="column">
         <h2 class="header">Todo List Form</h2>
         <!-- todo list form -->
-        <form class="form">
+        <form id="form" class="form">
           <div class="form-group">
             <label for="title">Title</label>
             <input
               type="text"
               name="title"
-              id=""
+              id="input"
               placeholder="please enter task to be done"
             />
           </div>
